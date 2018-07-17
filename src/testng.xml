@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test Suite">
+	<test name="Testing Parameterization">
+	<parameter name="browserType" value="chrome"/>
+	<parameter name="appURL"   value="https://itsm9-stage.vodafone.com"/>
+	
+		<classes>
+			<class name="Tests.IncidentTest" />
+		</classes>
+	</test>
+</suite>
